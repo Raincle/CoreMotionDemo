@@ -11,9 +11,22 @@ import CoreMotion
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var xLabel: UILabel!
-    @IBOutlet weak var yLabel: UILabel!
-    @IBOutlet weak var zLabel: UILabel!
+
+    @IBOutlet weak var aLabelX: UILabel!
+    @IBOutlet weak var aLabelY: UILabel!
+    @IBOutlet weak var aLabelZ: UILabel!
+    
+    @IBOutlet weak var aMaxX: UILabel!
+    @IBOutlet weak var aMaxY: UILabel!
+    @IBOutlet weak var aMaxZ: UILabel!
+    
+    @IBOutlet weak var rLabelX: UILabel!
+    @IBOutlet weak var rLabelY: UILabel!
+    @IBOutlet weak var rLabelZ: UILabel!
+
+    @IBOutlet weak var rMaxX: UILabel!
+    @IBOutlet weak var rMaxY: UILabel!
+    @IBOutlet weak var rMaxZ: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +38,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func updateRate(sender: UISlider) {
+    }
 
+    
+    @IBAction func onSwitch(sender: AnyObject) {
+    }
+
+    
+    @IBAction func reset(sender: AnyObject) {
+    }
 }
 
