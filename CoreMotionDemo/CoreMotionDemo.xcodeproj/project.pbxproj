@@ -13,6 +13,7 @@
 		F101504B1AE7E79B0092F340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F101504A1AE7E79B0092F340 /* Images.xcassets */; };
 		F101504E1AE7E79B0092F340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F101504C1AE7E79B0092F340 /* LaunchScreen.xib */; };
 		F101505A1AE7E79B0092F340 /* CoreMotionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10150591AE7E79B0092F340 /* CoreMotionDemoTests.swift */; };
+		F1EB9F411AE8C27B00760E11 /* MagnetoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB9F401AE8C27B00760E11 /* MagnetoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F10150531AE7E79B0092F340 /* CoreMotionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10150581AE7E79B0092F340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F10150591AE7E79B0092F340 /* CoreMotionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionDemoTests.swift; sourceTree = "<group>"; };
+		F1EB9F401AE8C27B00760E11 /* MagnetoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnetoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F10150431AE7E79B0092F340 /* AppDelegate.swift */,
 				F10150451AE7E79B0092F340 /* ViewController.swift */,
 				F10150471AE7E79B0092F340 /* Main.storyboard */,
+				F1EB9F401AE8C27B00760E11 /* MagnetoViewController.swift */,
 				F101504A1AE7E79B0092F340 /* Images.xcassets */,
 				F101504C1AE7E79B0092F340 /* LaunchScreen.xib */,
 				F10150411AE7E79B0092F340 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10150461AE7E79B0092F340 /* ViewController.swift in Sources */,
+				F1EB9F411AE8C27B00760E11 /* MagnetoViewController.swift in Sources */,
 				F10150441AE7E79B0092F340 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
