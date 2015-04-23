@@ -411,6 +411,7 @@
 				F101505F1AE7E79B0092F340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F10150601AE7E79B0092F340 /* Build configuration list for PBXNativeTarget "CoreMotionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				F10150621AE7E79B0092F340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
