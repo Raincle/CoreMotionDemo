@@ -14,6 +14,9 @@
 		F101504E1AE7E79B0092F340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F101504C1AE7E79B0092F340 /* LaunchScreen.xib */; };
 		F101505A1AE7E79B0092F340 /* CoreMotionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10150591AE7E79B0092F340 /* CoreMotionDemoTests.swift */; };
 		F1EB9F411AE8C27B00760E11 /* MagnetoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB9F401AE8C27B00760E11 /* MagnetoViewController.swift */; };
+		F1EB9F431AE8E69300760E11 /* StepCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB9F421AE8E69300760E11 /* StepCounterViewController.swift */; };
+		F1EB9F461AE9021A00760E11 /* ProximtyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB9F451AE9021A00760E11 /* ProximtyViewController.swift */; };
+		F1EB9F481AEA1F0200760E11 /* AltitudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB9F471AEA1F0200760E11 /* AltitudeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,10 @@
 		F10150581AE7E79B0092F340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F10150591AE7E79B0092F340 /* CoreMotionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionDemoTests.swift; sourceTree = "<group>"; };
 		F1EB9F401AE8C27B00760E11 /* MagnetoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnetoViewController.swift; sourceTree = "<group>"; };
+		F1EB9F421AE8E69300760E11 /* StepCounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCounterViewController.swift; sourceTree = "<group>"; };
+		F1EB9F441AE8EDE900760E11 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		F1EB9F451AE9021A00760E11 /* ProximtyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximtyViewController.swift; sourceTree = "<group>"; };
+		F1EB9F471AEA1F0200760E11 /* AltitudeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,10 @@
 				F10150451AE7E79B0092F340 /* ViewController.swift */,
 				F10150471AE7E79B0092F340 /* Main.storyboard */,
 				F1EB9F401AE8C27B00760E11 /* MagnetoViewController.swift */,
+				F1EB9F421AE8E69300760E11 /* StepCounterViewController.swift */,
+				F1EB9F451AE9021A00760E11 /* ProximtyViewController.swift */,
+				F1EB9F471AEA1F0200760E11 /* AltitudeViewController.swift */,
+				F1EB9F441AE8EDE900760E11 /* MyPlayground.playground */,
 				F101504A1AE7E79B0092F340 /* Images.xcassets */,
 				F101504C1AE7E79B0092F340 /* LaunchScreen.xib */,
 				F10150411AE7E79B0092F340 /* Supporting Files */,
@@ -216,8 +227,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10150461AE7E79B0092F340 /* ViewController.swift in Sources */,
+				F1EB9F431AE8E69300760E11 /* StepCounterViewController.swift in Sources */,
+				F1EB9F481AEA1F0200760E11 /* AltitudeViewController.swift in Sources */,
 				F1EB9F411AE8C27B00760E11 /* MagnetoViewController.swift in Sources */,
 				F10150441AE7E79B0092F340 /* AppDelegate.swift in Sources */,
+				F1EB9F461AE9021A00760E11 /* ProximtyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
