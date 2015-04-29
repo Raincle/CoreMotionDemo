@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreMotion
+import CoreGraphics
+import QuartzCore
 
 
 class AltitudeViewController: UIViewController {
